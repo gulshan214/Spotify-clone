@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.container{
+    display: flex;       /* put left + right side by side */
+    width: 100%;
+}
+
+.top-nav{
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100vw;
+    height: 8vh;
+}
+
+
+
+.left{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #121212; 
+   
+}
+
+.left-container{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+.inner-card{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #1f1f1f;
+    margin: 10px;
+}
+
+
+.pages-list {
+    
+    list-style: none; /* remove bullets */
+    display: flex;    /* make horizontal */
+    gap: 20px;        /* spacing between items */
+    padding: 0;       /* remove default padding */
+    margin: 0;        /* remove default margin */
+    flex-wrap: wrap;
+    font-size: small;
+    margin-top: 25vh;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.pages-list li a {
+    text-decoration: none; /* remove underline */
+    color: white;
+}
+
+.language-btn{
+    margin: 10px;
+}
+
+.right{
+    display: flex;
+    width: 75vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 8vh;
+}
