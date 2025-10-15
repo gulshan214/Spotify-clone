@@ -1,3 +1,8 @@
+* {
+
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     background-color: black;
     margin: 0px;
@@ -36,6 +41,8 @@ body{
     align-items: center;
     border-radius: 10px;
     padding: 10px;
+    font-size: 16px;
+    
     
 
 }
@@ -46,18 +53,56 @@ body{
     padding-bottom: 10px;
     background-color: #1f1f1f;
     margin: 10px;
+    
+    
 }
+
+.left-btn{
+    padding: 8px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.lang-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 9999px; /* fully rounded pill */
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+    
+  }
+
+  .lang-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: white;
+  }
+
+  .lang-btn img {
+    width: 20px;
+    height: 20px;
+  }
+
 
 
 .pages-list {
     
     list-style: none; /* remove bullets */
     display: flex;    /* make horizontal */
-    gap: 20px;        /* spacing between items */
+    gap: 15px;        /* spacing between items */
     padding: 0;       /* remove default padding */
     margin: 0;        /* remove default margin */
     flex-wrap: wrap;
-    font-size: small;
+    font-size: 11px;
     margin-top: 25vh;
     margin-left: 10px;
     margin-bottom: 10px;
