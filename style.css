@@ -59,16 +59,41 @@ body{
     width: 29vw;
   }
   
-  #search-plc::placeholder {
+#search-plc::placeholder {
     color: #b3b3b3;                     
   }
 
-  #search-plc:focus {
+#search-plc:focus {
     outline: none;                       /* removes default blue outline */
     box-shadow: 0 0 8px white;  /* faded glow effect */
     transition: box-shadow 0.3s ease;    /* smooth fade-in */
   }
 
+.right-nav-links{
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.right-nav-links a {
+    text-decoration: none; /* remove underline */
+    color: white;
+}
+
+.login-btn{
+    padding: 14px 38px 27px 38px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    margin: 10px;
+    
+
+}
+.login-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4);
+}
 
 
 .left{
@@ -171,7 +196,19 @@ body{
 .right{
     display: flex;
     width: 75vw;
+    background-color: #121212;
+    border-radius: 8px;
+    margin-left: 5px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
