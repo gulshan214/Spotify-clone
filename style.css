@@ -193,15 +193,21 @@ body{
     margin: 10px;
 }
 
+.rightWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
 .right{
     display: flex;
     width: 75vw;
-    height: 65vh;
+    height: 100vh;
     background-color: #121212;
     border-radius: 8px;
     margin-left: 5px;
     max-height: 65vh;
     overflow: scroll;
+    flex-direction: column;
 }
 
 #trending-songs{
@@ -216,6 +222,8 @@ body{
     margin-left: 40px;
     margin-top: 10px;
     margin-right: 40px;
+    /* display: flex;
+    flex-direction: column; */
     
 }
 
@@ -268,9 +276,12 @@ body{
     margin: 5px;
 }
 
-
-
-
+.musiccontrols{
+    background-color: #121212;
+    margin: 5px 0px 0px 5px;
+    height: 15.5vh;
+    border-radius: 8px;
+}
 
 
 
