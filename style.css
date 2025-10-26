@@ -225,12 +225,14 @@ body{
     /* display: flex;
     flex-direction: column; */
     
+    
 }
 
 .audio-card{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
     
 }
 .card{
@@ -239,6 +241,7 @@ body{
     padding: 10px;
     margin-bottom: 15px;
     position: relative;
+   
 }
 .play{
     height: 40px;
@@ -268,6 +271,12 @@ body{
     font-size: medium;
     font-weight: lighter;
     margin: 5px;
+    white-space: nowrap;        /* keeps it in one line */
+    overflow: hidden;           /* hides overflow */
+    text-overflow: ellipsis;    /* adds ... at the end */
+    width: 150px;               /* match your card image width */
+    display: block;
+   
 
 }
 .card p{
@@ -276,17 +285,40 @@ body{
     margin: 5px;
 }
 
-.musiccontrols{
+.player-container {
+    background: transparent;
+    border: 2px solid #ddd;
+    border-radius: 40px;
+    padding: 2rem 3rem;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+  }
+  
+
+
+  .musiccontrols{
+    display: flex;
     background-color: #121212;
     margin: 5px 0px 0px 5px;
     height: 15.5vh;
     border-radius: 8px;
+    justify-content: center;  /* centers horizontally */
+    align-items: center;       /* centers vertically */
 }
-
-
-
-
-
+ 
+  .control-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;                 /* adds space between icons */
+  }
+  
+  .control-container img {
+    width: 32px;               /* adjust size as needed */
+    height: 32px;
+    cursor: pointer;
+  }
 
 
 
